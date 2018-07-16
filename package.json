@@ -1,6 +1,6 @@
 {
   "name": "racecerts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/millsy/racecerts/issues"
   },
-  "homepage": "https://github.com/millsy/racecerts#readme"
+  "homepage": "https://github.com/millsy/racecerts#readme",
+  "dependencies": {
+    "pdfkit": "^0.8.3",
+    "request": "^2.87.0"
+  }
 }
